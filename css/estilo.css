@@ -1,0 +1,586 @@
+
+html{
+    font-size: 16px;
+
+   
+}
+
+body{
+    color:#6e6c6c;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+
+}
+
+h1{
+    font-family: 'Oswald';
+    color:#fff;
+    font-size:5rem;
+    padding:180px 0 0;
+
+}
+
+h2{
+    font-family: 'Oswald';
+    font-size: 3rem;
+    color:#263958 ;
+}
+
+h3{
+    font-family: 'Oswald';
+    color:#263958 ;
+}
+
+h4{
+    font-family: 'Oswald';
+    color:#263958 ;
+}
+
+
+
+header{
+    background-image:url('../imagenes/banner.jpg');
+    background-color: #263958  ;
+    background-size:cover;
+    background-position-y:center;
+}
+
+header p{
+    padding:30px 0 50px;
+    color:#fff;
+    font-weight: bold;
+}
+
+#headerIzq{
+    float:left;
+    width:20%;
+}
+
+#headerIzq img{
+    padding:30px;
+    margin:10px auto;
+    display:block;
+}
+
+#headerDer{
+    float:right;
+    width:70%;
+}
+
+.espacio {
+    padding: 75px 0;
+}
+
+.principal{
+    padding:0 0 0 4%;
+}
+
+#navbar{
+    padding:50px 0 0 0;
+    margin:0 auto;
+    width:60%;
+    float:right;
+}
+
+
+
+.navbar {
+    letter-spacing: 5px;
+    font-size: 1rem;
+    
+}
+
+.navbar a{
+    color:#fff !important;
+    font-family: 'Oswald';
+}
+
+.navbar a:hover{
+    color:#a5eaf6 !important;
+}
+
+.dropdown-menu a:hover{
+    color:#fff !important;
+    background-color: #263958;
+
+}
+
+.dropdown-menu{
+    background-color: #dc3545 !important;   
+    color:#fff !important;
+}
+
+.navbar-toggler {
+    margin:10px;
+    background-color: #dc3545;
+
+}
+
+.navbar-toggler:hover {
+    background-color: #bd313f;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230, 177, 91, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230, 177, 91, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.goto-top{
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    width:75px;
+    height:50px;
+}
+
+.espacio{
+    padding:50px 0 0;
+}
+
+#nosotros p{
+    text-align: left;
+    
+}
+
+.iconos img{
+    width: 40%;
+}
+
+
+
+.instituto{
+    margin:100px 0 0;
+    padding:50px 0;
+    background-color: #263958  !important;  
+}
+
+.instituto p{
+    color: #fff;
+   
+}
+
+
+
+.instituto h4{
+    color: #fff;
+}
+
+#tecnicos li{
+    font-family: 'Oswald';
+    text-align: left !important;
+    list-style: none;
+    color:#6e8283;
+}
+
+#tecnicos li::before{
+	font-family:"Font Awesome 5 Free";
+	content:"\2d";
+	margin-right:8px;
+}
+
+#inscripcion{
+    background-color: #263958  !important; 
+}
+
+#inscripcion p{
+    color: #fff;
+   
+}
+
+#inscripcion h2{
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+#inscripcion input{
+    margin:0 auto;
+    width:20%;
+}
+
+
+
+#libres li{
+    font-family: 'Oswald';
+    text-align: left !important;
+    list-style: none;
+    color:#6e8283;
+    font-size: 1.5rem;
+}
+
+#libres li::before{
+	font-family:"Font Awesome 5 Free";
+	content:"\2d";
+	margin-right:8px;
+}
+
+#virtuales h3{
+    color:#6e8283;
+}
+
+#virtuales img{
+    filter: grayscale(80%);
+}
+
+#virtuales img:hover{
+    filter: grayscale(0%);
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+#educacion{
+    background-color: #263958; 
+    color:#fff;
+}
+
+#educacion h2{
+    color: #fff; 
+}
+
+#educacion h4{
+    color: #fff; 
+}
+
+.gente img{
+    margin:0 auto; 
+    display:block;
+}
+
+.edu{
+    padding:0 0 0 10%;
+}
+
+.wrap{
+    margin:0 auto 50px;
+    width:50%;
+}
+
+.contactoWrap{
+    width:61%;
+    margin:0 auto;
+    color:#fff;
+    font-weight: bold;
+}
+
+.contactoWrap h2{
+    color:#fff;
+}
+
+.formA{
+    background-color: #dc3545; 
+} 
+
+.formB{
+    background-color: #263958 ;
+}
+
+.enviar{
+    margin:0 25px;
+}
+
+.borrar{
+    margin:0 25px;
+}
+
+footer{
+    color:#fff;
+    background-color: #263958 ;
+    padding:30px 0 10px;
+    margin:0 !important;
+
+}
+
+footer li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.logoFooter img{
+    width:50%;
+    margin:0 auto;
+    display:block;
+}
+
+.redes li{
+    display: inline-block;
+    padding:0 15px 0 0;
+}
+
+.redes h3{
+    color:#fff;
+}
+
+
+.titu{
+    padding: 0 0 10px;
+}
+
+.efecto {
+    opacity:1;
+    filter:alpha(opacity=20);
+    -ms-transition:all 0.5s ease-in;
+    -moz-transition:all 0.5s ease-in;
+    -o-transition:all 0.5s ease-in;
+    -webkit-transition:all 0.5s ease-in;
+    transition:all 0.5s ease-in;
+    behavior: url(pie/PIE.htc);
+}
+.efecto:hover{
+    opacity:0.4;
+    filter:alpha(opacity=4);
+    -ms-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    -webkit-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+    behavior: url(pie/PIE.htc);
+}
+
+/*Responsividad*/
+
+@media (max-width: 576px){
+    .edu{
+        padding:0 10px 0 20px !important;
+        margin:0 0 0 20px !important;
+    }
+
+    .gente {
+        margin:0 auto !important; 
+        display:block !important;
+    }
+
+}
+
+@media (max-width: 768px){
+
+
+    .navbar{
+        float:none !important;
+
+    }
+
+
+    header  p {
+        padding:0 !important;
+    }
+
+    h1{
+        margin:150px 0 0;
+    }
+
+    .edu{
+        padding:0 0 0 20px !important;
+        margin:0 0 0 140px;
+    }
+
+    .wrap{
+        width: 80% !important;
+    }
+
+    .contactoWrap{
+        width:90% !important;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 992px){
+    .wrap{
+        width: 88% !important;
+    }
+
+    .contactoWrap{
+        width:80% !important;
+
+    }
+
+    header{
+        background-image:url('../imagenes/banner3.jpg') !important;
+    }
+
+    header p{
+        font-size: 1rem !important;
+   }
+
+
+
+}
+
+@media (min-width: 368px) and (max-width: 768px){
+
+    .principal{
+        text-align: center;
+    }
+
+    #headerIzq{
+        float:none;
+        width:100%;
+    }
+
+    #headerIzq img{
+        float:right;
+        width:50%;
+    }
+    
+    #headerDer{
+        float:none;
+        width:100%;
+    }
+
+    #navbar{
+        position: fixed;
+        top:0;
+        padding:0 !important;   
+        margin:0 ;
+
+    }
+
+    h1{
+        padding:50px 0 60px;
+    }
+
+    .principal p{
+        padding:0 0 40px !important;
+    }
+
+
+    #tecnicos li{
+        font-size:1.5rem !important;
+        color:#263958;
+    }
+
+    #libres li{
+        font-size:1.5rem !important;
+        color:#263958;
+    }
+
+    .gente{
+        padding:70px 0 0;
+    }
+
+    .gente img{
+        margin:0 auto;
+        display:block;
+    }
+
+    footer li{
+        font-size: 1.5rem;
+        padding:0 0 0 20%;
+    }
+
+    .titu{
+        padding: 0 0 10px 20%;
+    }
+
+    .logoFooter img{
+
+        display:none;
+    }
+
+    .redes{
+        padding:25px 0 0 15%;
+        font-size: 1.2rem;
+    }
+
+    .redesOcultar{
+        display:none;
+    }
+
+    
+
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+
+
+    #tecnicos li{
+        font-size:1rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1rem !important;
+        
+    }
+
+    .edu{
+        padding:0 0 0 25%;
+    }
+
+    .gente{
+        padding:70px 0 0;
+    }
+
+    #navbar{
+        background-color: none;
+
+    }
+
+    .logoFooter img{
+
+        display:none;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+    #tecnicos li{
+        font-size:1.2rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1.2rem !important;
+       
+    }
+
+    .ocultar{
+        display:none;
+    }
+
+    footer li{
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1400px){
+
+    #tecnicos li{
+        font-size:1.3rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1.3rem !important;
+       
+    }
+
+}
+
+@media (min-width: 1401px){
+
+    header p{
+         font-size: 1.4rem !important;
+    }
+
+    #tecnicos li{
+        font-size:1.5rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1.5rem !important;
+       
+    }
+
+}
