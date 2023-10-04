@@ -39,7 +39,7 @@ h4{
 
 
 header{
-    background-image:url('../imagenes/banner.jpg');
+    background-image:url('../imagenes/banner.webp');
     background-color: #263958  ;
     background-size:cover;
     background-position-y:center;
@@ -403,7 +403,7 @@ footer li{
     }
 
     header{
-        background-image:url('../imagenes/banner3.jpg') !important;
+        background-image:url('../imagenes/banner3.webp') !important;
     }
 
     header p{
