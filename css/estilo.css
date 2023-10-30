@@ -492,13 +492,46 @@ footer li{
 
     .redesOcultar{
         display:none;
-    }
-
-    
+    }  
 
 }
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 800px){
+    #nosotros p{
+        font-size: 0.8rem;
+    }
+
+    .logoFooter{
+        display: none;
+    }
+
+    #tecnicos li{
+        font-size:1rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1rem !important;
+        
+    }
+
+    header{
+        background-image:url('../imagenes/banner2.jpg') !important;
+    }
+
+    .navbar {
+        font-size: 0.9rem;
+        
+    }
+
+    #navbar{
+        width:90%;
+        float:left;
+    }
+
+}
+
+@media (min-width: 801px) and (max-width: 992px){
 
 
     #tecnicos li{
@@ -531,7 +564,24 @@ footer li{
 
 }
 
-@media (min-width: 993px) and (max-width: 1200px){
+
+@media (min-width: 993px) and (max-width: 1024px){
+    #virtuales h3{
+        font-size:1.4rem;
+    }
+
+    .instituto p{
+        font-size:0.9rem; 
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+
+} 
+
+@media (min-width: 1025px) and (max-width: 1200px){
 
     #tecnicos li{
         font-size:1.2rem !important;
