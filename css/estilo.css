@@ -578,6 +578,20 @@ footer li{
         display: none;
     }
 
+    #tecnicos li{
+        font-size:1.2rem !important;
+        
+    }
+
+    #libres li{
+        font-size:1.2rem !important;
+       
+    }
+
+    footer li{
+        font-size: 0.6rem;
+    }
+
 
 } 
 
