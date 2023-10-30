@@ -414,7 +414,7 @@ footer li{
 
 }
 
-@media (min-width: 368px) and (max-width: 768px){
+@media (min-width: 368px) and (max-width: 575px){
 
     .principal{
         text-align: center;
@@ -493,6 +493,57 @@ footer li{
     .redesOcultar{
         display:none;
     }  
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    #nosotros p{
+        font-size: 0.8rem;
+    }
+
+    #tecnicos li{
+        font-size:0.9rem !important;
+        
+    }
+
+    #libres li{
+        font-size:0.9rem !important;
+        
+    }
+
+    footer li{
+        font-size: 0.7rem;
+    }
+
+    .principal{
+        text-align: center;
+    }
+
+    #headerIzq{
+        float:none;
+        width:100%;
+    }
+
+    #headerIzq img{
+        margin:30px auto;
+        display:block;
+        width:30%;
+    }
+
+    h1{
+        padding:30px 0 60px;
+    }
+    
+    #headerDer{
+        float:none;
+        width:100%;
+    }
+
+    #navbar{
+        position: fixed;
+        top:0;
+        padding:0 0 0 150px !important;  
+    }
 
 }
 
