@@ -30,30 +30,9 @@ window.onscroll = function() {
 function scrollFunction() {
     if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
         document.getElementById("flechabtn").style.display = "block";
-        document.getElementById("logo").style.display = "none";
-        document.getElementById("logo2").style.display = "block";
-        document.getElementById("logo2").style.paddingLeft = "5%";
-        document.getElementById("listaMenu").style.textAlign = "center";
-        document.getElementById("container").style.height = "50px";
-        document.getElementById("container").style.backgroundColor = "#000";
-        document.getElementById("container").style.width = "100%";
-        document.getElementById("container").style.borderBottom = "solid #ccc";
-        document.getElementById("container").style.borderLeft = "solid #ccc";
-        document.getElementById("container").style.borderRight = "solid #ccc";
-
-
 
     } else {
         document.getElementById("flechabtn").style.display = "none";
-        document.getElementById("logo").style.display = "block";
-        document.getElementById("logo2").style.display = "none";
-        document.getElementById("container").style.height = "initial";
-        document.getElementById("container").style.backgroundColor = "initial";
-        document.getElementById("container").style.borderBottom = "none";
-        document.getElementById("container").style.borderLeft = "none";
-        document.getElementById("container").style.borderRight = "none";
-        document.getElementById("container").style.width = "90%";
-   
     }
 }
 

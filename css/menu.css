@@ -1,5 +1,7 @@
 
-
+nav{
+    max-width: 1440px;
+}
 
 .menu{
     position:fixed;
