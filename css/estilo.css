@@ -332,6 +332,18 @@ footer li{
 
 }
 
+@media (max-width: 800px){
+#virtuales img{
+    filter: grayscale(0);
+}
+
+#virtuales img:hover{
+    filter: grayscale(0%);
+    -webkit-transform:scale(1);transform:scale(1);
+    
+}
+}
+
 
 
 
