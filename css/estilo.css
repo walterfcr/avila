@@ -65,7 +65,9 @@ header p{
     margin:0 auto;
 }
 
-
+#inicio img{
+    max-width: 80px;
+}
 
 .espacio {
     padding: 75px 0;
