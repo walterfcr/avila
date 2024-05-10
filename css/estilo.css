@@ -70,7 +70,7 @@ header p{
 }
 
 .espacio {
-    padding: 75px 0;
+    padding: 75px 0 0 ;
 }
 
 .principal{
@@ -85,9 +85,7 @@ header p{
     height:50px;
 }
 
-.espacio{
-    padding:50px 0 0;
-}
+
 
 #nosotros p{
     text-align: left;
@@ -189,7 +187,7 @@ header p{
 }
 
 #educacion h4{
-    color: #fff; 
+    color: #fea2ac; 
 }
 
 .gente img{
@@ -285,6 +283,10 @@ footer li{
     -webkit-transition:all 0.5s ease-out;
     transition:all 0.5s ease-out;
     behavior: url(pie/PIE.htc);
+}
+
+.tiraEstatica{
+    display:none;
 }
 
 /*Responsividad*/
@@ -386,6 +388,42 @@ footer li{
         font-size:1.9rem;
     }
 
+    #tecnicos h2{
+        font-size:1.7rem;
+    }
+
+    #libres h2{
+        font-size:1.7rem;
+    }
+
+    #virtuales h2{
+        font-size:1.7rem;
+    }
+
+    #inscripcion h2{
+        font-size:1.4rem;
+        padding:0 20px;
+    }
+
+    #educacion h2{
+        font-size:1.4rem;
+        text-align: center;
+    }
+
+    .fondotira h2 {
+        font-size:1.4rem;
+    }
+
+    #libres li{
+        font-size:0.9rem !important;
+        color:#263958;
+    }
+
+    #tecnicos li{
+        font-size:0.9rem !important;
+        color:#263958;
+    }
+
 }
 
 @media (min-width: 376px) and (max-width: 575px){
@@ -403,6 +441,44 @@ footer li{
     #nosotros h2{
         font-size:2.5rem;
     }
+
+    #tecnicos h2{
+        font-size:2rem;
+    }
+
+    #virtuales h2{
+        font-size:2rem;
+    }
+
+    #libres h2{
+        font-size:2rem;
+    }
+
+    #inscripcion h2{
+        font-size:2rem;
+        padding:0 40px;
+    }
+
+    #educacion h2{
+        font-size:2rem;
+        text-align: center;
+    }
+
+    .fondotira h2 {
+        font-size:2rem;
+    }
+
+
+    #libres li{
+        font-size:1.1rem !important;
+        color:#263958;
+    }
+
+    #tecnicos li{
+        font-size:1.1rem !important;
+        color:#263958;
+    }
+
 }
 
 
@@ -422,18 +498,6 @@ footer li{
         padding:0 0 40px !important;
         font-size:0.8rem !important;
 
-    }
-
-
-
-    #tecnicos li{
-        font-size:1.5rem !important;
-        color:#263958;
-    }
-
-    #libres li{
-        font-size:1.5rem !important;
-        color:#263958;
     }
 
     .gente{
@@ -468,6 +532,54 @@ footer li{
         display:none;
     }  
 
+    #inscripcion input{
+        margin:0 auto;
+        width:60%;
+    }
+
+    .edu{
+        padding:0 15%!important;
+        margin:0 !important;
+    }
+
+    #educacion p{
+        margin:0 0 50px ;
+    }
+
+    #educacion h2{
+        margin:0 0 50px ;
+    }
+
+    #educacion h4{
+        font-size: 1.1rem;
+    }
+
+    .item2{
+        display:none;
+    }
+
+    .tiraEstatica{
+        display:block !important;
+    }
+
+    .tiraEstatica ul{
+        padding:0 !important;
+    }
+
+    .tiraEstatica li{
+        margin:0 auto;
+        width:200px;
+        height:150px;
+        overflow: hidden;
+    }
+
+    .tiraEstatica img{
+        margin:10px 0;
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        object-position: center;
+    }
 
 
 }
@@ -540,6 +652,13 @@ footer li{
 
 }
 
+@media (min-width: 576px) and (max-width: 992px){
+#inscripcion input{
+    margin:0 auto;
+    width:40%;
+}
+}
+
 @media (min-width: 801px) and (max-width: 992px){
 
 
@@ -570,7 +689,10 @@ footer li{
         background-image:url('../imagenes/banner-991.jpg') !important;
     }
 
+
 }
+
+
 
 
 @media (min-width: 993px) and (max-width: 1024px){
