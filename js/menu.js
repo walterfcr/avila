@@ -1,21 +1,18 @@
-var button = document.getElementById('hamburger-menu'),
-    span = button.getElementsByTagName('span')[0];
 
-button.onclick =  function() {
-  span.classList.toggle('hamburger-menu-button-close');
-};
 
-$('#hamburger-menu').on('click', toggleOnClass);
+document.addEventListener('DOMContentLoaded', function() {
+  const menuContainer = document.querySelector('.menu__container');
+  const menuLinks = document.querySelectorAll('.menu__link');
+  const hamburger = document.querySelector('.menu__hamburguer');
 
-function toggleOnClass(event) {
-  var toggleElementId = '#' + $(this).data('toggle'),
-  element = $(toggleElementId);
+  // Toggle menu on hamburger click
+  hamburger.addEventListener('click', function() {
+    menuContainer.classList.toggle('open');
+  });
 
-  element.toggleClass('on');
-
-}
-
-// close hamburger menu after click a
-$( '.listaMenu li a' ).on("click", function(){
-  $('#hamburger-menu').click();
+  // Close menu on "Inicio" link click
+  document.querySelector('.menu__link[href="#inicio"]').addEventListener('click', function() {
+    menuContainer.classList.remove('open');
+  });
 });
+

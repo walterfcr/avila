@@ -1,48 +1,26 @@
-//Elasticidad botones menu
 $(document).ready(function() {
+    // Initialize smooth scrolling
     smoothScroll.init({
-        selector: '[data-scroll]',
-        //selector: 'a.nav-link', 
-        // 2 seg equivale a 2000)  
-        speed: 300,
-        //aceleraciones
-        easing: 'easeInQuart',
-        //easing: 'easyInCubic'
-        //easing: 'easyInOutQuad',
-        //easing:'easeInQuart',
-        //easing: 'easeInOutCubic',
+        selector: '[data-scroll]', // Links with the data-scroll attribute
+        speed: 300, // 0.3 seconds scroll speed
+        easing: 'easeInQuart' // Easing function
     });
 
-});
+    // Hide the ScrollTop button on page load
+    $('#flechabtn').hide(); 
 
+    // Scroll event to show/hide the ScrollTop button
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 180) {
+            $('#flechabtn').fadeIn(); // Show the button with fade effect
+        } else {
+            $('#flechabtn').fadeOut(); // Hide the button with fade effect
+        }
+    });
 
-//desaparece el boton ScrollTop al cargar la pagina web
-document.getElementById("flechabtn").style.display = "none";
-
-
-
-//esconder botón ScrollTop (parte superior)
-window.onscroll = function() {
-    scrollFunction()
-};
-
-//funcion scroll
-function scrollFunction() {
-    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
-        document.getElementById("flechabtn").style.display = "block";
-
-    } else {
-        document.getElementById("flechabtn").style.display = "none";
-    }
-}
-
-
-
-
-//Funcián Scrolltop (Jquery)
-function topFunction() {
-    $('a.scroll-top').click(function(event) {
+    // Smooth scroll to top functionality
+    $('#flechabtn').click(function(event) {
         event.preventDefault();
-        $('html, body').animate({ scrollTop: 0 });
+        $('html, body').animate({ scrollTop: 0 }, 600); // 600ms scroll to top
     });
-}
+});
